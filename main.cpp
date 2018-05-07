@@ -124,7 +124,9 @@ void citireAnimalNou(nodAnimal *&listaAnimale, nodPadoc *listaPadocuri)
         padocDispobibil->ocupat = true;
     }
     else
+    {
         cout<<"Nu exista padocuri disbonibile! ";
+    }
 }
 
 void afisareListaAnimale(nodAnimal *lista)
